@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "file:///C:/Users/Wander/Desktop/Alura/HTML%20+%20CSS/Code/index.html",
+            "url": "C:/Users/Wander/Desktop/Alura/alurafrontend/Code/produtos.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
