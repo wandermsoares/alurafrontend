@@ -1,3 +1,36 @@
+header{
+    background:#bbbbbb;
+    padding: 20px 0px;
+}
+
+.caixa{
+    position:relative;
+    width: 940px;
+    margin:0 auto;
+}
+
+nav{
+    position:absolute;
+    top:110px;
+    right:0;
+}
+nav li{
+    display:inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size:22px;
+    text-decoration: none;    
+}
+
+nav a:hover{
+    color:#c78c19;
+    text-decoration: underline;
+}
+
 #banner{
     width: 100%;
 }
@@ -7,11 +40,6 @@
 }
 
 .titulo-centralizado{
-    text-align: center;
-}
-
-
-p{
     text-align: center;
 }
 
@@ -32,6 +60,11 @@ em strong {
     padding: 30px;
 }
 
+p{
+    
+    text-align: center;
+}
+
 .beneficios{
     background: #FFFFFF;
     padding:20px;
@@ -41,10 +74,21 @@ em strong {
     width: 50%;
 }
 
-ul{
+.beneficios ul{
     display:inline-block;
     vertical-align: top;
     width:20%;
     margin-right: 15%;
 }
 
+footer{
+    text-align:center;
+    background:url(../img/bg.jpg);
+    padding:40px 0
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top:20px;
+}
